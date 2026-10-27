@@ -1,0 +1,17 @@
+.money-verdict{display:grid;grid-template-columns:1fr 1fr;gap:40px;padding:32px;border:1px solid #40582f;background:linear-gradient(120deg,rgba(183,243,74,.1),transparent)}
+.money-verdict h3{font:600 23px/1.35 Unbounded}.money-verdict p{color:var(--muted)}
+.evidence-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:14px;margin:28px 0}
+.evidence-card{padding:27px;background:var(--panel);border:1px solid var(--line);border-top:3px solid var(--lime)}
+.evidence-card.blocked{border-top-color:var(--rose)}.evidence-card.unknown{border-top-color:var(--yellow)}
+.evidence-status{font:600 9px Unbounded;letter-spacing:.08em;color:var(--lime)}.blocked .evidence-status{color:var(--rose)}.unknown .evidence-status{color:var(--yellow)}
+.evidence-card h3{font:600 18px/1.35 Unbounded}.evidence-card p{color:var(--muted);font-size:13px}.evidence-card a{font-size:12px;color:var(--blue)}
+.money-model{display:grid;grid-template-columns:1fr 1fr;border:1px solid var(--line);background:var(--panel2)}
+.money-copy,.money-calc{padding:32px}.money-copy{border-right:1px solid var(--line)}.money-copy h3{font:600 22px/1.35 Unbounded}.money-copy p,.money-calc small{color:var(--muted)}
+.money-warning{font-size:11px;color:var(--yellow);border-left:2px solid var(--yellow);padding-left:12px;margin-top:20px}
+.money-calc{display:grid;gap:18px}.money-calc label{font-size:12px;color:var(--muted)}
+.money-calc input,.money-calc select{display:block;width:100%;margin-top:7px;padding:12px;background:var(--bg);border:1px solid var(--line);color:white;font:600 16px Unbounded}
+.money-output{display:grid;grid-template-columns:1fr 1fr;gap:1px;background:var(--line);border:1px solid var(--line)}
+.money-output span{background:var(--bg);padding:16px;color:var(--muted);font-size:10px}.money-output b{display:block;color:var(--yellow);font:600 19px Unbounded;margin-bottom:6px}
+.monetization-order{margin-top:28px;padding:25px;border:1px solid var(--line)}.monetization-order ol{margin:18px 0 0;padding-left:22px}.monetization-order li{margin:10px 0;color:var(--muted)}.monetization-order b{color:white}
+@media(max-width:850px){.evidence-grid{grid-template-columns:1fr 1fr}.money-verdict,.money-model{grid-template-columns:1fr}.money-copy{border-right:0;border-bottom:1px solid var(--line)}}
+@media(max-width:560px){.evidence-grid{grid-template-columns:1fr}.money-verdict{gap:10px}.money-output{grid-template-columns:1fr}}
