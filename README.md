@@ -7,12 +7,17 @@
 - `dist/index.html` — обзор;
 - `dist/landscape.html` — рынок;
 - `dist/competitors.html` — конкуренты;
+- `dist/founders.html` — уроки основателей и операторов крупных сообществ;
 - `dist/audience.html` — аудитория;
-- `dist/opportunities.html` — возможности;
+- `dist/opportunities.html` — 15 вариантов позиционирования и их проверка;
 - `dist/ecosystem.html` — экосистема, рост и монетизация;
+- `dist/discord-tools.html` — встроенные функции, боты и безопасность Discord;
+- `dist/telegram-tools.html` — инструменты публичного Telegram-паблика;
+- `dist/telegram-growth.html` — контент, продвижение и источники тем для Telegram;
 - `dist/execution.html` — запуск и KPI;
 - `dist/final-report.html` — финальный вывод;
-- `dist/sources.html` — все 130 источников.
+- `dist/evidence.html` — аудит доказательств и конфликтов данных;
+- `dist/sources.html` — каталог из 261 источника.
 
 ## Recommended: local web server
 
